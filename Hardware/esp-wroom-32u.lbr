@@ -1953,17 +1953,17 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <pin name="IO26" x="17.78" y="-15.24" length="short" rot="R180"/>
 <pin name="IO27" x="17.78" y="-17.78" length="short" rot="R180"/>
 <pin name="SCK_H/IO14" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="MISO_H/IO12" x="17.78" y="15.24" length="short" rot="R180"/>
-<pin name="MOSI_H/IO13" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="CIPO_H/IO12" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="COPI_H/IO13" x="17.78" y="12.7" length="short" rot="R180"/>
 <pin name="SHD/IO9" x="-17.78" y="15.24" length="short"/>
 <pin name="SWP/IO10" x="-17.78" y="12.7" length="short"/>
 <pin name="SCS/IO11" x="-17.78" y="10.16" length="short"/>
-<pin name="MOSI_V/IO23" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="COPI_V/IO23" x="17.78" y="-10.16" length="short" rot="R180"/>
 <pin name="IO22" x="17.78" y="-7.62" length="short" rot="R180"/>
 <pin name="TXD" x="17.78" y="33.02" length="short" rot="R180"/>
 <pin name="RXD" x="17.78" y="30.48" length="short" rot="R180"/>
 <pin name="IO21" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="MISO_V/IO19" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="CIPO_V/IO19" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="SCK_V/IO18" x="17.78" y="0" length="short" rot="R180"/>
 <pin name="CS0_V/IO5" x="17.78" y="17.78" length="short" rot="R180"/>
 <pin name="IO17" x="17.78" y="2.54" length="short" rot="R180"/>
@@ -2000,6 +2000,10 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <device name="32D" package="ESP-WROOM-32D">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="CIPO_H/IO12" pad="14"/>
+<connect gate="G$1" pin="CIPO_V/IO19" pad="31"/>
+<connect gate="G$1" pin="COPI_H/IO13" pad="16"/>
+<connect gate="G$1" pin="COPI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
 <connect gate="G$1" pin="CS0_V/IO5" pad="29"/>
 <connect gate="G$1" pin="EN" pad="3"/>
@@ -2016,10 +2020,6 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <connect gate="G$1" pin="IO34" pad="6"/>
 <connect gate="G$1" pin="IO35" pad="7"/>
 <connect gate="G$1" pin="IO4" pad="26"/>
-<connect gate="G$1" pin="MISO_H/IO12" pad="14"/>
-<connect gate="G$1" pin="MISO_V/IO19" pad="31"/>
-<connect gate="G$1" pin="MOSI_H/IO13" pad="16"/>
-<connect gate="G$1" pin="MOSI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="RXD" pad="34"/>
 <connect gate="G$1" pin="SCK/IO6" pad="20"/>
 <connect gate="G$1" pin="SCK_H/IO14" pad="13"/>
@@ -2044,6 +2044,10 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <device name="32D-NARROW" package="ESP-WROOM-32D-NARROW">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="CIPO_H/IO12" pad="14"/>
+<connect gate="G$1" pin="CIPO_V/IO19" pad="31"/>
+<connect gate="G$1" pin="COPI_H/IO13" pad="16"/>
+<connect gate="G$1" pin="COPI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
 <connect gate="G$1" pin="CS0_V/IO5" pad="29"/>
 <connect gate="G$1" pin="EN" pad="3"/>
@@ -2060,10 +2064,6 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <connect gate="G$1" pin="IO34" pad="6"/>
 <connect gate="G$1" pin="IO35" pad="7"/>
 <connect gate="G$1" pin="IO4" pad="26"/>
-<connect gate="G$1" pin="MISO_H/IO12" pad="14"/>
-<connect gate="G$1" pin="MISO_V/IO19" pad="31"/>
-<connect gate="G$1" pin="MOSI_H/IO13" pad="16"/>
-<connect gate="G$1" pin="MOSI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="RXD" pad="34"/>
 <connect gate="G$1" pin="SCK/IO6" pad="20"/>
 <connect gate="G$1" pin="SCK_H/IO14" pad="13"/>
@@ -2088,6 +2088,10 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <device name="32U-NARROW" package="ESP-WROOM-32U-NARROW">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="CIPO_H/IO12" pad="14"/>
+<connect gate="G$1" pin="CIPO_V/IO19" pad="31"/>
+<connect gate="G$1" pin="COPI_H/IO13" pad="16"/>
+<connect gate="G$1" pin="COPI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
 <connect gate="G$1" pin="CS0_V/IO5" pad="29"/>
 <connect gate="G$1" pin="EN" pad="3"/>
@@ -2104,10 +2108,6 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <connect gate="G$1" pin="IO34" pad="6"/>
 <connect gate="G$1" pin="IO35" pad="7"/>
 <connect gate="G$1" pin="IO4" pad="26"/>
-<connect gate="G$1" pin="MISO_H/IO12" pad="14"/>
-<connect gate="G$1" pin="MISO_V/IO19" pad="31"/>
-<connect gate="G$1" pin="MOSI_H/IO13" pad="16"/>
-<connect gate="G$1" pin="MOSI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="RXD" pad="34"/>
 <connect gate="G$1" pin="SCK/IO6" pad="20"/>
 <connect gate="G$1" pin="SCK_H/IO14" pad="13"/>
@@ -2132,6 +2132,10 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <device name="32U" package="ESP-WROOM-32U">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="CIPO_H/IO12" pad="14"/>
+<connect gate="G$1" pin="CIPO_V/IO19" pad="31"/>
+<connect gate="G$1" pin="COPI_H/IO13" pad="16"/>
+<connect gate="G$1" pin="COPI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
 <connect gate="G$1" pin="CS0_V/IO5" pad="29"/>
 <connect gate="G$1" pin="EN" pad="3"/>
@@ -2148,10 +2152,6 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <connect gate="G$1" pin="IO34" pad="6"/>
 <connect gate="G$1" pin="IO35" pad="7"/>
 <connect gate="G$1" pin="IO4" pad="26"/>
-<connect gate="G$1" pin="MISO_H/IO12" pad="14"/>
-<connect gate="G$1" pin="MISO_V/IO19" pad="31"/>
-<connect gate="G$1" pin="MOSI_H/IO13" pad="16"/>
-<connect gate="G$1" pin="MOSI_V/IO23" pad="37"/>
 <connect gate="G$1" pin="RXD" pad="34"/>
 <connect gate="G$1" pin="SCK/IO6" pad="20"/>
 <connect gate="G$1" pin="SCK_H/IO14" pad="13"/>
