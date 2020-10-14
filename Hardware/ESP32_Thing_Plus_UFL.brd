@@ -4856,148 +4856,6 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <vertex x="1.85" y="0.42"/>
 </polygon>
 </package>
-<package name="RST0">
-<polygon width="0.01" layer="21">
-<vertex x="-0.57" y="-0.21"/>
-<vertex x="-0.61" y="-0.11"/>
-<vertex x="-0.62" y="-0.07"/>
-<vertex x="-0.59" y="-0.03"/>
-<vertex x="-0.56" y="0.02"/>
-<vertex x="-0.55" y="0.07"/>
-<vertex x="-0.55" y="0.13"/>
-<vertex x="-0.56" y="0.18"/>
-<vertex x="-0.57" y="0.23"/>
-<vertex x="-0.6" y="0.28"/>
-<vertex x="-0.64" y="0.31"/>
-<vertex x="-0.76" y="0.18"/>
-<vertex x="-0.73" y="0.14"/>
-<vertex x="-0.74" y="0.08"/>
-<vertex x="-0.77" y="0.04"/>
-<vertex x="-0.82" y="0.02"/>
-<vertex x="-0.93" y="0.02"/>
-<vertex x="-0.95" y="0.02"/>
-<vertex x="-0.95" y="0.18"/>
-<vertex x="-0.92" y="0.21"/>
-<vertex x="-0.87" y="0.21"/>
-<vertex x="-0.81" y="0.21"/>
-<vertex x="-0.76" y="0.18"/>
-<vertex x="-0.64" y="0.32"/>
-<vertex x="-0.69" y="0.35"/>
-<vertex x="-0.74" y="0.37"/>
-<vertex x="-0.79" y="0.39"/>
-<vertex x="-0.84" y="0.39"/>
-<vertex x="-1.06" y="0.39"/>
-<vertex x="-1.12" y="0.38"/>
-<vertex x="-1.14" y="0.34"/>
-<vertex x="-1.14" y="0.28"/>
-<vertex x="-1.14" y="-0.26"/>
-<vertex x="-1.14" y="-0.32"/>
-<vertex x="-1.12" y="-0.36"/>
-<vertex x="-1.06" y="-0.37"/>
-<vertex x="-0.99" y="-0.37"/>
-<vertex x="-0.96" y="-0.34"/>
-<vertex x="-0.95" y="-0.29"/>
-<vertex x="-0.95" y="-0.18"/>
-<vertex x="-0.91" y="-0.16"/>
-<vertex x="-0.8" y="-0.16"/>
-<vertex x="-0.77" y="-0.22"/>
-<vertex x="-0.71" y="-0.35"/>
-<vertex x="-0.67" y="-0.38"/>
-<vertex x="-0.62" y="-0.37"/>
-<vertex x="-0.56" y="-0.34"/>
-<vertex x="-0.54" y="-0.3"/>
-<vertex x="-0.56" y="-0.24"/>
-</polygon>
-<polygon width="0.01" layer="21">
-<vertex x="-0.37" y="-0.26"/>
-<vertex x="-0.34" y="-0.3"/>
-<vertex x="-0.29" y="-0.33"/>
-<vertex x="-0.24" y="-0.36"/>
-<vertex x="-0.19" y="-0.37"/>
-<vertex x="-0.14" y="-0.38"/>
-<vertex x="-0.08" y="-0.38"/>
-<vertex x="-0.03" y="-0.37"/>
-<vertex x="0.02" y="-0.35"/>
-<vertex x="0.07" y="-0.32"/>
-<vertex x="0.1" y="-0.28"/>
-<vertex x="0.13" y="-0.24"/>
-<vertex x="0.15" y="-0.19"/>
-<vertex x="0.16" y="-0.13"/>
-<vertex x="0.15" y="-0.08"/>
-<vertex x="0.14" y="-0.03"/>
-<vertex x="0.11" y="0.02"/>
-<vertex x="0.07" y="0.05"/>
-<vertex x="0.02" y="0.07"/>
-<vertex x="-0.04" y="0.09"/>
-<vertex x="-0.14" y="0.11"/>
-<vertex x="-0.19" y="0.14"/>
-<vertex x="-0.2" y="0.19"/>
-<vertex x="-0.17" y="0.23"/>
-<vertex x="-0.11" y="0.24"/>
-<vertex x="-0.06" y="0.22"/>
-<vertex x="-0.02" y="0.19"/>
-<vertex x="0.03" y="0.18"/>
-<vertex x="0.07" y="0.21"/>
-<vertex x="0.11" y="0.26"/>
-<vertex x="0.11" y="0.3"/>
-<vertex x="0.07" y="0.35"/>
-<vertex x="0.03" y="0.37"/>
-<vertex x="-0.03" y="0.39"/>
-<vertex x="-0.08" y="0.4"/>
-<vertex x="-0.13" y="0.41"/>
-<vertex x="-0.19" y="0.4"/>
-<vertex x="-0.24" y="0.39"/>
-<vertex x="-0.29" y="0.36"/>
-<vertex x="-0.33" y="0.33"/>
-<vertex x="-0.36" y="0.28"/>
-<vertex x="-0.38" y="0.23"/>
-<vertex x="-0.38" y="0.18"/>
-<vertex x="-0.38" y="0.12"/>
-<vertex x="-0.36" y="0.08"/>
-<vertex x="-0.33" y="0.03"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="-0.25" y="-0.03"/>
-<vertex x="-0.19" y="-0.05"/>
-<vertex x="-0.14" y="-0.06"/>
-<vertex x="-0.09" y="-0.07"/>
-<vertex x="-0.04" y="-0.1"/>
-<vertex x="-0.03" y="-0.15"/>
-<vertex x="-0.05" y="-0.19"/>
-<vertex x="-0.1" y="-0.2"/>
-<vertex x="-0.16" y="-0.2"/>
-<vertex x="-0.21" y="-0.17"/>
-<vertex x="-0.25" y="-0.13"/>
-<vertex x="-0.29" y="-0.11"/>
-<vertex x="-0.34" y="-0.12"/>
-<vertex x="-0.39" y="-0.17"/>
-<vertex x="-0.39" y="-0.21"/>
-</polygon>
-<polygon width="0.01" layer="21">
-<vertex x="0.38" y="0.38"/>
-<vertex x="0.33" y="0.37"/>
-<vertex x="0.31" y="0.33"/>
-<vertex x="0.31" y="0.27"/>
-<vertex x="0.35" y="0.24"/>
-<vertex x="0.4" y="0.23"/>
-<vertex x="0.57" y="0.23"/>
-<vertex x="0.59" y="0.2"/>
-<vertex x="0.59" y="-0.3"/>
-<vertex x="0.59" y="-0.35"/>
-<vertex x="0.63" y="-0.38"/>
-<vertex x="0.69" y="-0.38"/>
-<vertex x="0.74" y="-0.37"/>
-<vertex x="0.76" y="-0.32"/>
-<vertex x="0.76" y="-0.26"/>
-<vertex x="0.76" y="0.23"/>
-<vertex x="0.81" y="0.23"/>
-<vertex x="0.98" y="0.23"/>
-<vertex x="1.03" y="0.25"/>
-<vertex x="1.03" y="0.3"/>
-<vertex x="1.03" y="0.36"/>
-<vertex x="0.99" y="0.38"/>
-<vertex x="0.93" y="0.38"/>
-</polygon>
-</package>
 <package name="3V30">
 <polygon width="0.01" layer="21">
 <vertex x="-0.77" y="0.41"/>
@@ -12281,6 +12139,155 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <vertex x="0.67" y="0.38"/>
 </polygon>
 </package>
+<package name="#RST#0">
+<polygon width="0.01" layer="21">
+<vertex x="-0.53" y="-0.3"/>
+<vertex x="-0.58" y="-0.21"/>
+<vertex x="-0.58" y="-0.17"/>
+<vertex x="-0.55" y="-0.13"/>
+<vertex x="-0.53" y="-0.09"/>
+<vertex x="-0.52" y="-0.04"/>
+<vertex x="-0.51" y="0.02"/>
+<vertex x="-0.52" y="0.07"/>
+<vertex x="-0.54" y="0.11"/>
+<vertex x="-0.57" y="0.16"/>
+<vertex x="-0.6" y="0.19"/>
+<vertex x="-0.71" y="0.07"/>
+<vertex x="-0.69" y="0.03"/>
+<vertex x="-0.69" y="-0.03"/>
+<vertex x="-0.72" y="-0.06"/>
+<vertex x="-0.77" y="-0.08"/>
+<vertex x="-0.87" y="-0.08"/>
+<vertex x="-0.89" y="-0.08"/>
+<vertex x="-0.89" y="0.07"/>
+<vertex x="-0.86" y="0.09"/>
+<vertex x="-0.81" y="0.09"/>
+<vertex x="-0.76" y="0.09"/>
+<vertex x="-0.72" y="0.07"/>
+<vertex x="-0.6" y="0.2"/>
+<vertex x="-0.64" y="0.23"/>
+<vertex x="-0.69" y="0.25"/>
+<vertex x="-0.74" y="0.26"/>
+<vertex x="-0.79" y="0.26"/>
+<vertex x="-1" y="0.26"/>
+<vertex x="-1.05" y="0.25"/>
+<vertex x="-1.07" y="0.21"/>
+<vertex x="-1.07" y="0.16"/>
+<vertex x="-1.07" y="-0.35"/>
+<vertex x="-1.06" y="-0.4"/>
+<vertex x="-1.05" y="-0.44"/>
+<vertex x="-1" y="-0.45"/>
+<vertex x="-0.93" y="-0.45"/>
+<vertex x="-0.9" y="-0.42"/>
+<vertex x="-0.89" y="-0.37"/>
+<vertex x="-0.89" y="-0.27"/>
+<vertex x="-0.86" y="-0.25"/>
+<vertex x="-0.75" y="-0.25"/>
+<vertex x="-0.72" y="-0.31"/>
+<vertex x="-0.67" y="-0.43"/>
+<vertex x="-0.63" y="-0.46"/>
+<vertex x="-0.58" y="-0.45"/>
+<vertex x="-0.53" y="-0.42"/>
+<vertex x="-0.51" y="-0.38"/>
+<vertex x="-0.52" y="-0.33"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="-0.35" y="-0.35"/>
+<vertex x="-0.32" y="-0.38"/>
+<vertex x="-0.27" y="-0.41"/>
+<vertex x="-0.23" y="-0.44"/>
+<vertex x="-0.18" y="-0.45"/>
+<vertex x="-0.13" y="-0.46"/>
+<vertex x="-0.08" y="-0.46"/>
+<vertex x="-0.03" y="-0.45"/>
+<vertex x="0.02" y="-0.43"/>
+<vertex x="0.06" y="-0.4"/>
+<vertex x="0.1" y="-0.37"/>
+<vertex x="0.13" y="-0.32"/>
+<vertex x="0.14" y="-0.28"/>
+<vertex x="0.15" y="-0.23"/>
+<vertex x="0.14" y="-0.17"/>
+<vertex x="0.13" y="-0.13"/>
+<vertex x="0.1" y="-0.08"/>
+<vertex x="0.06" y="-0.05"/>
+<vertex x="0.02" y="-0.03"/>
+<vertex x="-0.03" y="-0.02"/>
+<vertex x="-0.13" y="0.01"/>
+<vertex x="-0.18" y="0.03"/>
+<vertex x="-0.19" y="0.08"/>
+<vertex x="-0.16" y="0.11"/>
+<vertex x="-0.1" y="0.12"/>
+<vertex x="-0.06" y="0.11"/>
+<vertex x="-0.02" y="0.07"/>
+<vertex x="0.03" y="0.07"/>
+<vertex x="0.07" y="0.09"/>
+<vertex x="0.1" y="0.14"/>
+<vertex x="0.1" y="0.18"/>
+<vertex x="0.06" y="0.22"/>
+<vertex x="0.03" y="0.25"/>
+<vertex x="-0.02" y="0.27"/>
+<vertex x="-0.07" y="0.28"/>
+<vertex x="-0.13" y="0.28"/>
+<vertex x="-0.18" y="0.27"/>
+<vertex x="-0.23" y="0.26"/>
+<vertex x="-0.27" y="0.24"/>
+<vertex x="-0.31" y="0.21"/>
+<vertex x="-0.34" y="0.16"/>
+<vertex x="-0.35" y="0.12"/>
+<vertex x="-0.36" y="0.07"/>
+<vertex x="-0.36" y="0.02"/>
+<vertex x="-0.34" y="-0.03"/>
+<vertex x="-0.31" y="-0.07"/>
+<vertex x="-0.27" y="-0.11"/>
+<vertex x="-0.23" y="-0.13"/>
+<vertex x="-0.18" y="-0.15"/>
+<vertex x="-0.13" y="-0.16"/>
+<vertex x="-0.08" y="-0.17"/>
+<vertex x="-0.04" y="-0.19"/>
+<vertex x="-0.03" y="-0.24"/>
+<vertex x="-0.05" y="-0.28"/>
+<vertex x="-0.1" y="-0.29"/>
+<vertex x="-0.15" y="-0.29"/>
+<vertex x="-0.19" y="-0.26"/>
+<vertex x="-0.24" y="-0.22"/>
+<vertex x="-0.28" y="-0.2"/>
+<vertex x="-0.32" y="-0.22"/>
+<vertex x="-0.36" y="-0.26"/>
+<vertex x="-0.37" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="0.36" y="0.26"/>
+<vertex x="0.31" y="0.25"/>
+<vertex x="0.29" y="0.21"/>
+<vertex x="0.29" y="0.15"/>
+<vertex x="0.32" y="0.12"/>
+<vertex x="0.38" y="0.12"/>
+<vertex x="0.53" y="0.12"/>
+<vertex x="0.55" y="0.08"/>
+<vertex x="0.55" y="-0.38"/>
+<vertex x="0.55" y="-0.43"/>
+<vertex x="0.59" y="-0.45"/>
+<vertex x="0.65" y="-0.46"/>
+<vertex x="0.69" y="-0.44"/>
+<vertex x="0.71" y="-0.4"/>
+<vertex x="0.72" y="-0.35"/>
+<vertex x="0.72" y="0.11"/>
+<vertex x="0.76" y="0.12"/>
+<vertex x="0.92" y="0.12"/>
+<vertex x="0.96" y="0.14"/>
+<vertex x="0.97" y="0.18"/>
+<vertex x="0.97" y="0.24"/>
+<vertex x="0.93" y="0.26"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="-1.11" y="0.46"/>
+<vertex x="-1.11" y="0.36"/>
+<vertex x="1.08" y="0.36"/>
+<vertex x="1.11" y="0.38"/>
+<vertex x="1.11" y="0.43"/>
+<vertex x="1.08" y="0.46"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -12681,7 +12688,6 @@ design rules under a new name.</description>
 <element name="U$77" library="output" package="VBAT0" value="" x="2.0574" y="22.733" smashed="yes"/>
 <element name="U$78" library="output" package="CHG0" value="" x="16.51" y="5.715" smashed="yes" rot="R90"/>
 <element name="U$79" library="output" package="RESET0" value="" x="16.1036" y="14.1986" smashed="yes"/>
-<element name="U$80" library="output" package="RST0" value="" x="21.59" y="12.7" smashed="yes"/>
 <element name="U$81" library="output" package="3V30" value="" x="21.59" y="15.24" smashed="yes"/>
 <element name="U$82" library="output" package="NC0" value="" x="21.59" y="17.78" smashed="yes"/>
 <element name="U$83" library="output" package="GND0" value="" x="21.59" y="20.32" smashed="yes"/>
@@ -12728,6 +12734,7 @@ design rules under a new name.</description>
 <element name="U$1" library="output" package="ESP32_THING_PLUS_0" value="" x="11.43" y="33.02" smashed="yes" rot="MR270"/>
 <element name="U$2" library="output" package="SDI0" value="" x="21.6154" y="43.18" smashed="yes"/>
 <element name="U$6" library="output" package="SDO0" value="" x="21.6916" y="40.64" smashed="yes"/>
+<element name="U$7" library="output" package="#RST#0" value="" x="21.5392" y="12.4714" smashed="yes"/>
 </elements>
 <signals>
 <signal name="3.3V">

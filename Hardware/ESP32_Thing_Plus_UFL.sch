@@ -27039,7 +27039,7 @@ GPIO5        1         1       x
 If U0TXD, GPIO2, GPIO5 are floating, 
 GPIO0 determines boot mode</text>
 <text x="256.54" y="274.32" size="2.54" layer="94" font="vector">CP2104/2N (USB-to-Serial Converter)</text>
-<text x="246.38" y="266.7" size="1.524" layer="97" rot="MR0" align="top-left">V_BATT should be a single-
+<text x="246.38" y="270.256" size="1.524" layer="97" font="vector" rot="MR0" align="top-left">V_BATT should be a single-
 cell LiPo battery.</text>
 <text x="203.2" y="213.36" size="2.032" layer="97" font="vector" rot="MR0" align="top-right">Charge current:
 I_CHG = 1000 / R_PROG
@@ -27067,21 +27067,21 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="259.08" y1="66.04" x2="259.08" y2="55.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="259.08" y1="55.88" x2="259.08" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="259.08" y1="55.88" x2="198.12" y2="55.88" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="187.96" size="2.54" layer="94">Espressif ESP32</text>
+<text x="2.54" y="187.96" size="2.54" layer="94" font="vector">Espressif ESP32</text>
 <text x="261.62" y="60.96" size="2.54" layer="94" font="vector">Reset Button</text>
 <text x="332.74" y="101.6" size="2.54" layer="94" font="vector">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v10</text>
-<text x="273.812" y="0.762" size="1.778" layer="94" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" font="vector" align="top-left">v10</text>
+<text x="273.812" y="0.762" size="1.778" layer="94" font="vector" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom</text>
 <text x="381" y="114.3" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="261.62" y="187.96" size="2.54" layer="94" font="vector">QWIIC Connector</text>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="193.04" width="0.1524" layer="97" style="longdash"/>
-<text x="348.996" y="11.43" size="2.54" layer="94">Mike Hord</text>
+<text x="348.996" y="11.43" size="2.54" layer="94" font="vector">Mike Hord</text>
 <text x="200.66" y="50.8" size="2.54" layer="94" font="vector">GPIO13 LED</text>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="66.04" width="0.1524" layer="97" style="longdash"/>
-<text x="261.62" y="93.98" size="2.54" layer="94">GPIO0 Button</text>
-<text x="331.47" y="6.604" size="2.54" layer="94">Revised by: Alex Wende, Pete Lewis (u.fl version)</text>
-<text x="12.7" y="266.7" size="1.778" layer="97">V_USB - 6V MAX
+<text x="261.62" y="93.98" size="2.54" layer="94" font="vector">GPIO0 Button</text>
+<text x="331.47" y="6.604" size="1.778" layer="94" font="vector">Revised by: Alex Wende, Pete Lewis (u.fl version)</text>
+<text x="12.7" y="266.7" size="1.778" layer="97" font="vector">V_USB - 6V MAX
 V_BATT - Single Cell (4.2V MAX)</text>
 </plain>
 <instances>
@@ -27090,7 +27090,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="294.64" y="30.226" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND1" gate="1" x="287.02" y="27.94" smashed="yes">
-<attribute name="VALUE" x="284.48" y="25.4" size="1.778" layer="96"/>
+<attribute name="VALUE" x="284.48" y="25.4" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -27099,10 +27099,10 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="DRAWING_NAME" x="345.694" y="17.78" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="GND26" gate="1" x="307.34" y="231.14" smashed="yes">
-<attribute name="VALUE" x="304.8" y="228.6" size="1.778" layer="96"/>
+<attribute name="VALUE" x="304.8" y="228.6" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND15" gate="1" x="73.66" y="226.06" smashed="yes">
-<attribute name="VALUE" x="71.12" y="223.52" size="1.778" layer="96"/>
+<attribute name="VALUE" x="71.12" y="223.52" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C7" gate="G$1" x="38.1" y="233.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.576" y="236.601" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -27113,52 +27113,52 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="103.124" y="231.521" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND21" gate="1" x="101.6" y="223.52" smashed="yes">
-<attribute name="VALUE" x="99.06" y="220.98" size="1.778" layer="96"/>
+<attribute name="VALUE" x="99.06" y="220.98" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND14" gate="1" x="38.1" y="226.06" smashed="yes">
-<attribute name="VALUE" x="35.56" y="223.52" size="1.778" layer="96"/>
+<attribute name="VALUE" x="35.56" y="223.52" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U1" gate="G$1" x="172.72" y="251.46" smashed="yes">
-<attribute name="NAME" x="165.1" y="257.048" size="1.778" layer="95"/>
-<attribute name="VALUE" x="165.1" y="243.84" size="1.778" layer="96"/>
+<attribute name="NAME" x="165.1" y="257.048" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.132" y="243.84" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND9" gate="1" x="185.42" y="220.98" smashed="yes">
-<attribute name="VALUE" x="182.88" y="218.44" size="1.778" layer="96"/>
+<attribute name="VALUE" x="182.88" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND11" gate="1" x="193.04" y="220.98" smashed="yes">
-<attribute name="VALUE" x="190.5" y="218.44" size="1.778" layer="96"/>
+<attribute name="VALUE" x="190.5" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND12" gate="1" x="200.66" y="220.98" smashed="yes">
-<attribute name="VALUE" x="198.12" y="218.44" size="1.778" layer="96"/>
+<attribute name="VALUE" x="198.12" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C6" gate="G$1" x="200.66" y="236.22" smashed="yes">
 <attribute name="NAME" x="202.184" y="239.141" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="202.184" y="234.061" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D2" gate="G$1" x="25.4" y="241.3" smashed="yes">
-<attribute name="NAME" x="27.178" y="244.8814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="29.972" y="239.5474" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="27.178" y="244.8814" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="30.226" y="239.2934" size="1.016" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="R7" gate="G$1" x="15.24" y="241.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.716" y="241.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="16.764" y="241.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="NAME" x="13.716" y="243.078" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="16.51" y="242.824" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND13" gate="1" x="15.24" y="231.14" smashed="yes">
-<attribute name="VALUE" x="12.7" y="228.6" size="1.778" layer="96"/>
+<attribute name="VALUE" x="12.7" y="228.6" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="40.64" y="243.84" smashed="yes">
-<attribute name="VALUE" x="39.624" y="247.396" size="1.778" layer="96"/>
+<attribute name="VALUE" x="39.624" y="247.396" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JP2" gate="G$1" x="223.52" y="251.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="226.06" y="256.286" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="226.06" y="245.872" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="213.36" y="220.98" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="215.9" y="218.44" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="215.9" y="218.44" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="D1" gate="G$1" x="160.02" y="241.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="163.449" y="245.872" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="158.115" y="245.872" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+<attribute name="NAME" x="161.163" y="241.046" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="158.369" y="245.872" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 <instance part="R3" gate="G$1" x="152.4" y="246.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="153.924" y="246.38" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
@@ -27166,38 +27166,38 @@ V_BATT - Single Cell (4.2V MAX)</text>
 </instance>
 <instance part="U3" gate="G$1" x="86.36" y="236.22" smashed="yes">
 <attribute name="PROD_ID" x="86.36" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="78.74" y="245.364" size="1.778" layer="95"/>
-<attribute name="VALUE" x="78.74" y="224.79" size="1.778" layer="96"/>
+<attribute name="NAME" x="78.74" y="245.364" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="78.74" y="224.79" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="Q1" gate="G$1" x="30.48" y="248.92" smashed="yes">
-<attribute name="NAME" x="33.02" y="254" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.02" y="251.46" size="1.778" layer="96"/>
+<attribute name="NAME" x="33.02" y="254" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="33.02" y="251.46" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R6" gate="G$1" x="193.04" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="191.516" y="236.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="194.564" y="236.22" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="317.5" y="248.92" smashed="yes">
-<attribute name="VALUE" x="313.436" y="251.968" size="1.778" layer="96"/>
+<attribute name="VALUE" x="313.436" y="251.968" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="15.24" y="256.54" smashed="yes">
-<attribute name="VALUE" x="14.224" y="260.096" size="1.778" layer="96"/>
+<attribute name="VALUE" x="14.224" y="260.096" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="213.36" y="259.08" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="214.376" y="262.636" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="214.376" y="262.636" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="SUPPLY27" gate="G$1" x="30.48" y="256.54" smashed="yes">
-<attribute name="VALUE" x="29.464" y="260.096" size="1.778" layer="96"/>
+<attribute name="VALUE" x="29.464" y="260.096" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C19" gate="G$1" x="144.78" y="236.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="143.256" y="239.141" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="143.256" y="234.061" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="144.78" y="259.08" smashed="yes">
-<attribute name="VALUE" x="143.764" y="262.636" size="1.778" layer="96"/>
+<attribute name="VALUE" x="143.764" y="262.636" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND41" gate="1" x="144.78" y="220.98" smashed="yes">
-<attribute name="VALUE" x="142.24" y="218.44" size="1.778" layer="96"/>
+<attribute name="VALUE" x="142.24" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R17" gate="G$1" x="388.62" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="388.62" y="143.256" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -27208,7 +27208,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="388.62" y="128.524" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="96.52" y="254" smashed="yes">
-<attribute name="VALUE" x="95.504" y="257.556" size="1.778" layer="96"/>
+<attribute name="VALUE" x="95.504" y="257.556" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="Q2" gate="Q1" x="378.46" y="144.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="375.92" y="144.78" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -27224,24 +27224,24 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="NAME" x="281.94" y="145.034" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="297.18" y="144.78" smashed="yes">
-<attribute name="VALUE" x="296.164" y="148.336" size="1.778" layer="96"/>
+<attribute name="VALUE" x="296.164" y="148.336" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND6" gate="1" x="297.18" y="129.54" smashed="yes">
-<attribute name="VALUE" x="294.64" y="127" size="1.778" layer="96"/>
+<attribute name="VALUE" x="294.64" y="127" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U4" gate="G$1" x="365.76" y="236.22" smashed="yes">
-<attribute name="NAME" x="347.98" y="254" size="1.27" layer="95"/>
-<attribute name="VALUE" x="347.98" y="251.968" size="1.27" layer="96"/>
+<attribute name="NAME" x="347.98" y="254" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="347.98" y="251.968" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="R1" gate="G$1" x="327.66" y="238.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="324.104" y="239.014" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="330.708" y="238.76" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="340.36" y="248.92" smashed="yes">
-<attribute name="VALUE" x="340.36" y="251.714" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="340.36" y="251.714" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND7" gate="1" x="342.9" y="218.44" smashed="yes">
-<attribute name="VALUE" x="340.36" y="215.9" size="1.778" layer="96"/>
+<attribute name="VALUE" x="340.36" y="215.9" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J2" gate="G$1" x="378.46" y="76.2" smashed="yes" rot="R180">
 <attribute name="VALUE" x="378.46" y="96.266" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -27252,23 +27252,23 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="NAME" x="383.54" y="50.292" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="365.76" y="96.52" smashed="yes">
-<attribute name="VALUE" x="364.744" y="100.076" size="1.778" layer="96"/>
+<attribute name="VALUE" x="364.744" y="100.076" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="355.6" y="96.52" smashed="yes">
-<attribute name="VALUE" x="354.584" y="100.076" size="1.778" layer="96"/>
+<attribute name="VALUE" x="354.584" y="100.076" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="408.94" y="93.98" smashed="yes">
-<attribute name="VALUE" x="407.924" y="97.536" size="1.778" layer="96"/>
+<attribute name="VALUE" x="407.924" y="97.536" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND2" gate="1" x="406.4" y="48.26" smashed="yes">
-<attribute name="VALUE" x="403.86" y="45.72" size="1.778" layer="96"/>
+<attribute name="VALUE" x="403.86" y="45.72" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="86.36" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.836" y="149.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="87.884" y="149.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="91.44" y="160.02" smashed="yes">
-<attribute name="VALUE" x="90.424" y="163.576" size="1.778" layer="96"/>
+<attribute name="VALUE" x="90.424" y="163.576" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="111.76" y="233.68" smashed="yes">
 <attribute name="NAME" x="113.284" y="236.601" size="1.778" layer="95" font="vector"/>
@@ -27283,7 +27283,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="226.568" y="34.29" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND5" gate="1" x="234.188" y="18.034" smashed="yes">
-<attribute name="VALUE" x="231.648" y="15.494" size="1.778" layer="96"/>
+<attribute name="VALUE" x="231.648" y="15.494" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R8" gate="G$1" x="63.5" y="236.22" smashed="yes">
 <attribute name="NAME" x="63.5" y="237.744" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -27300,11 +27300,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="294.64" y="81.026" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND10" gate="1" x="287.02" y="78.74" smashed="yes">
-<attribute name="VALUE" x="284.48" y="76.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="284.48" y="76.2" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP1" gate="G$1" x="309.88" y="81.28" smashed="yes">
-<attribute name="NAME" x="307.34" y="83.82" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="307.34" y="78.74" size="1.778" layer="96" font="vector"/>
+<instance part="TP1" gate="G$1" x="309.88" y="76.2" smashed="yes">
+<attribute name="NAME" x="313.69" y="75.184" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="307.34" y="73.66" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J5" gate="J1" x="292.1" y="238.76" smashed="yes">
 <attribute name="VALUE" x="289.56" y="228.854" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -27313,11 +27313,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <instance part="H1" gate="G$1" x="421.64" y="33.02" smashed="yes"/>
 <instance part="H2" gate="G$1" x="421.64" y="30.48" smashed="yes"/>
 <instance part="U5" gate="G$1" x="116.84" y="109.22" smashed="yes">
-<attribute name="NAME" x="101.6" y="145.034" size="1.778" layer="95"/>
-<attribute name="VALUE" x="101.6" y="73.406" size="1.778" layer="96" align="top-left"/>
+<attribute name="NAME" x="101.6" y="145.034" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="101.6" y="73.406" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND8" gate="1" x="96.52" y="71.12" smashed="yes">
-<attribute name="VALUE" x="93.98" y="68.58" size="1.778" layer="96"/>
+<attribute name="VALUE" x="93.98" y="68.58" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="H3" gate="G$1" x="419.1" y="33.02" smashed="yes"/>
 <instance part="H4" gate="G$1" x="419.1" y="30.48" smashed="yes"/>
@@ -27330,7 +27330,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <attribute name="VALUE" x="319.024" y="223.52" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND3" gate="1" x="317.5" y="213.36" smashed="yes">
-<attribute name="VALUE" x="314.96" y="210.82" size="1.778" layer="96"/>
+<attribute name="VALUE" x="314.96" y="210.82" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="LOGO5" gate="G$1" x="51.562" y="6.096" smashed="yes"/>
 <instance part="C2" gate="G$1" x="401.32" y="210.82" smashed="yes">
@@ -27430,13 +27430,13 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <wire x1="375.92" y1="149.86" x2="375.92" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="152.4" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
-<label x="373.38" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="373.38" y="152.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="Q2" gate="Q1" pin="C"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="393.7" y1="91.44" x2="396.24" y2="91.44" width="0.1524" layer="91"/>
-<label x="396.24" y="91.44" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
@@ -27444,7 +27444,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <wire x1="86.36" y1="139.7" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="139.7" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
 <junction x="86.36" y="139.7"/>
-<label x="83.82" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="83.82" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="EN"/>
 </segment>
 <segment>
@@ -27574,7 +27574,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="393.7" y1="144.78" x2="398.78" y2="144.78" width="0.1524" layer="91"/>
-<label x="401.32" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="401.32" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="398.78" y1="144.78" x2="401.32" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="132.08" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="134.62" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
@@ -27585,7 +27585,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="DTR"/>
 <wire x1="386.08" y1="246.38" x2="388.62" y2="246.38" width="0.1524" layer="91"/>
-<label x="388.62" y="246.38" size="1.27" layer="95" xref="yes"/>
+<label x="388.62" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -27684,7 +27684,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="393.7" y1="127" x2="396.24" y2="127" width="0.1524" layer="91"/>
-<label x="398.78" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="398.78" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="396.24" y1="127" x2="398.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="127" x2="396.24" y2="137.16" width="0.1524" layer="91"/>
 <junction x="396.24" y="127"/>
@@ -27695,7 +27695,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="RTS"/>
 <wire x1="386.08" y1="236.22" x2="388.62" y2="236.22" width="0.1524" layer="91"/>
-<label x="388.62" y="236.22" size="1.27" layer="95" xref="yes"/>
+<label x="388.62" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -27767,19 +27767,23 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <net name="0" class="0">
 <segment>
 <wire x1="375.92" y1="119.38" x2="373.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="373.38" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="373.38" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="Q2" gate="Q2" pin="C"/>
 <wire x1="375.92" y1="119.38" x2="375.92" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="4"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="304.546" y="81.534" size="1.778" layer="95"/>
+<wire x1="299.72" y1="81.28" x2="307.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="81.28" x2="307.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
+<junction x="307.34" y="81.28"/>
+<wire x1="307.34" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="309.88" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
-<label x="137.16" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO0"/>
 </segment>
 </net>
@@ -27795,11 +27799,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="393.7" y1="81.28" x2="396.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="396.24" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<label x="137.16" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO26"/>
 </segment>
 </net>
@@ -27807,11 +27811,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="6"/>
 <wire x1="393.7" y1="78.74" x2="396.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="396.24" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
-<label x="137.16" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO25"/>
 </segment>
 </net>
@@ -27819,11 +27823,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="393.7" y1="76.2" x2="396.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="396.24" y="76.2" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
-<label x="137.16" y="83.82" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO34"/>
 </segment>
 </net>
@@ -27831,11 +27835,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="393.7" y1="73.66" x2="396.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="396.24" y="73.66" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="137.16" y="76.2" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SENSOR_VN/I39"/>
 </segment>
 </net>
@@ -27843,11 +27847,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="9"/>
 <wire x1="393.7" y1="71.12" x2="396.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="396.24" y="71.12" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="137.16" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SENSOR_VP/I36"/>
 </segment>
 </net>
@@ -27855,11 +27859,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="10"/>
 <wire x1="393.7" y1="68.58" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="396.24" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="137.16" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO4"/>
 </segment>
 </net>
@@ -27867,11 +27871,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="11"/>
 <wire x1="393.7" y1="66.04" x2="396.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="396.24" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
-<label x="137.16" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="CS0_V/IO5"/>
 </segment>
 </net>
@@ -27879,11 +27883,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="12"/>
 <wire x1="393.7" y1="63.5" x2="396.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="396.24" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<label x="137.16" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SCK_V/IO18"/>
 </segment>
 </net>
@@ -27891,11 +27895,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="13"/>
 <wire x1="393.7" y1="60.96" x2="396.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="396.24" y="60.96" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
-<label x="137.16" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SDI_V/IO19"/>
 </segment>
 </net>
@@ -27903,11 +27907,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="RXD"/>
 <wire x1="386.08" y1="238.76" x2="388.62" y2="238.76" width="0.1524" layer="91"/>
-<label x="388.62" y="238.76" size="1.27" layer="95" xref="yes"/>
+<label x="388.62" y="238.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
-<label x="137.16" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="TXD"/>
 </segment>
 </net>
@@ -27915,11 +27919,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="TXD"/>
 <wire x1="386.08" y1="241.3" x2="388.62" y2="241.3" width="0.1524" layer="91"/>
-<label x="388.62" y="241.3" size="1.27" layer="95" xref="yes"/>
+<label x="388.62" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
-<label x="137.16" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="RXD"/>
 </segment>
 </net>
@@ -27927,16 +27931,16 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="12"/>
 <wire x1="368.3" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="365.76" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="294.64" y1="139.7" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
-<label x="299.72" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="299.72" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<label x="137.16" y="99.06" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SDO_V/IO23"/>
 </segment>
 </net>
@@ -27944,16 +27948,16 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="11"/>
 <wire x1="368.3" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="365.76" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="294.64" y1="142.24" x2="299.72" y2="142.24" width="0.1524" layer="91"/>
-<label x="299.72" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="299.72" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-<label x="137.16" y="101.6" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO22"/>
 </segment>
 </net>
@@ -27961,11 +27965,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="10"/>
 <wire x1="368.3" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="365.76" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
-<label x="137.16" y="119.38" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SCK_H/IO14"/>
 </segment>
 </net>
@@ -27973,11 +27977,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="9"/>
 <wire x1="368.3" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="365.76" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<label x="137.16" y="88.9" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="XTAL_P/IO32"/>
 </segment>
 </net>
@@ -27985,11 +27989,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
 <wire x1="368.3" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="365.76" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="73.66" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="CS0_H/IO15"/>
 </segment>
 </net>
@@ -27997,11 +28001,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="7"/>
 <wire x1="368.3" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="365.76" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
-<label x="137.16" y="86.36" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="XTAL_N/IO33"/>
 </segment>
 </net>
@@ -28009,11 +28013,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
 <wire x1="368.3" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="365.76" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<label x="137.16" y="91.44" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO27"/>
 </segment>
 </net>
@@ -28021,11 +28025,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="368.3" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="365.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
-<label x="137.16" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SDI_H/IO12"/>
 </segment>
 </net>
@@ -28033,16 +28037,16 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="368.3" y1="83.82" x2="365.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="365.76" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="221.488" y1="35.814" x2="218.948" y2="35.814" width="0.1524" layer="91"/>
-<label x="218.948" y="35.814" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="218.948" y="35.814" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<label x="137.16" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="SDO_H/IO13"/>
 </segment>
 </net>
@@ -28050,7 +28054,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="365.76" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="365.76" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="EN"/>
@@ -28063,11 +28067,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="14"/>
 <wire x1="393.7" y1="58.42" x2="396.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="396.24" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO16"/>
 </segment>
 </net>
@@ -28075,11 +28079,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="15"/>
 <wire x1="393.7" y1="55.88" x2="396.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="396.24" y="55.88" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
-<label x="137.16" y="111.76" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO17"/>
 </segment>
 </net>
@@ -28095,11 +28099,11 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="16"/>
 <wire x1="393.7" y1="53.34" x2="396.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="396.24" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="396.24" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
-<label x="137.16" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="IO21"/>
 </segment>
 </net>
