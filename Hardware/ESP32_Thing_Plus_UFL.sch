@@ -25789,8 +25789,8 @@ except it is slightly longer and requires the keepout zone.</description>
 <wire x1="7.041" y1="-9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
 <wire x1="14.057" y1="9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
 </package>
-<package name="ESP-WROOM-32U-NARROW">
-<description>ESP-WROOM-32U
+<package name="ESP-WROOM-32EU-NARROW">
+<description>ESP-WROOM-32EU
 &lt;br&gt;
 &lt;br&gt;
 This version of the module contains the u.FL antenna connector. 
@@ -26239,8 +26239,8 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <circle x="4.572" y="-4.572" radius="1.52928125" width="0.1524" layer="51"/>
 <text x="3.429" y="-4.953" size="0.8128" layer="51" font="vector" ratio="20">U.FL</text>
 </package>
-<package name="ESP-WROOM-32U">
-<description>ESP-WROOM-32U
+<package name="ESP-WROOM-32EU">
+<description>ESP-WROOM-32EU
 &lt;br&gt;
 &lt;br&gt;
 This version of the module contains the u.FL antenna connector. 
@@ -26836,7 +26836,7 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 </technology>
 </technologies>
 </device>
-<device name="32U-NARROW" package="ESP-WROOM-32U-NARROW">
+<device name="32U-NARROW" package="ESP-WROOM-32EU-NARROW">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
@@ -26880,7 +26880,7 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 </technology>
 </technologies>
 </device>
-<device name="32U" package="ESP-WROOM-32U">
+<device name="32U" package="ESP-WROOM-32EU">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
@@ -27009,7 +27009,7 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <part name="J5" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL"/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
-<part name="U5" library="esp-wroom-32u" deviceset="ESP-WROOM-32" device="32U-NARROW"/>
+<part name="U5" library="esp-wroom-32u" deviceset="ESP-WROOM-32" device="32U-NARROW" value="ESP-WROOM-32EU"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
