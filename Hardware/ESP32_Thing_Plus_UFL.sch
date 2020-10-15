@@ -26220,7 +26220,7 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <smd name="36" x="3.89" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
 <smd name="37" x="5.16" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
 <smd name="38" x="6.43" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="GND" x="-1.27" y="0" dx="6" dy="6" layer="1"/>
+<smd name="GND" x="-1.051" y="1.015" dx="1.33" dy="1.33" layer="1"/>
 <wire x1="-11.697" y1="6.35" x2="-11.697" y2="9.127" width="0.2032" layer="21"/>
 <wire x1="-11.697" y1="9.127" x2="-10.67" y2="9.127" width="0.2032" layer="21"/>
 <wire x1="-11.697" y1="-6.35" x2="-11.697" y2="-9.127" width="0.2032" layer="21"/>
@@ -26238,6 +26238,17 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <wire x1="6.35" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="51"/>
 <circle x="4.572" y="-4.572" radius="1.52928125" width="0.1524" layer="51"/>
 <text x="3.429" y="-4.953" size="0.8128" layer="51" font="vector" ratio="20">U.FL</text>
+<dimension x1="-11.57" y1="9" x2="-11.57" y2="-9" x3="-14" y3="0" textsize="0.8128" layer="21" width="0.05" visible="yes"/>
+<dimension x1="-11.57" y1="9" x2="7.63" y2="9" x3="-1.97" y3="10.34" textsize="0.8128" layer="21" width="0.05" visible="yes"/>
+<rectangle x1="-3.07" y1="-0.3" x2="0.53" y2="3.3" layer="51"/>
+<smd name="P$1" x="0.77" y="-0.83" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$2" x="0.77" y="1" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$3" x="0.77" y="2.83" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$4" x="-1.06" y="2.83" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$5" x="-1.03" y="-0.84" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$6" x="-2.89" y="-0.83" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$7" x="-2.9" y="1" dx="1.33" dy="1.33" layer="1"/>
+<smd name="P$8" x="-2.89" y="2.83" dx="1.33" dy="1.33" layer="1"/>
 </package>
 <package name="ESP-WROOM-32EU">
 <description>ESP-WROOM-32EU
@@ -26842,7 +26853,7 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <connect gate="G$1" pin="CS0_H/IO15" pad="23"/>
 <connect gate="G$1" pin="CS0_V/IO5" pad="29"/>
 <connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="1 15 38 GND"/>
+<connect gate="G$1" pin="GND" pad="1 15 38 GND P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8"/>
 <connect gate="G$1" pin="IO0" pad="25"/>
 <connect gate="G$1" pin="IO16" pad="27"/>
 <connect gate="G$1" pin="IO17" pad="28"/>
