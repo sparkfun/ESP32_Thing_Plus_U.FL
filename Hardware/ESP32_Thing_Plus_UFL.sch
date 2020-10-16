@@ -26238,8 +26238,6 @@ except it is slightly shorter and does not require the keepout zone.</descriptio
 <wire x1="6.35" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="51"/>
 <circle x="4.572" y="-4.572" radius="1.52928125" width="0.1524" layer="51"/>
 <text x="3.429" y="-4.953" size="0.8128" layer="51" font="vector" ratio="20">U.FL</text>
-<dimension x1="-11.57" y1="9" x2="-11.57" y2="-9" x3="-14" y3="0" textsize="0.8128" layer="21" width="0.05" visible="yes"/>
-<dimension x1="-11.57" y1="9" x2="7.63" y2="9" x3="-1.97" y3="10.34" textsize="0.8128" layer="21" width="0.05" visible="yes"/>
 <rectangle x1="-3.07" y1="-0.3" x2="0.53" y2="3.3" layer="51"/>
 <smd name="P$1" x="0.77" y="-0.83" dx="1.33" dy="1.33" layer="1"/>
 <smd name="P$2" x="0.77" y="1" dx="1.33" dy="1.33" layer="1"/>
