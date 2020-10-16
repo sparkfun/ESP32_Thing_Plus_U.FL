@@ -12972,13 +12972,13 @@ design rules under a new name.</description>
 <via x="9.5006" y="43.399" extent="1-16" drill="0.254"/>
 <via x="10.4404" y="44.288" extent="1-16" drill="0.254"/>
 <via x="12.2692" y="44.3134" extent="1-16" drill="0.254"/>
-<polygon width="0.2032" layer="1">
+<polygon width="0.2032" layer="1" isolate="0.254">
 <vertex x="0" y="0"/>
 <vertex x="0" y="58.42"/>
 <vertex x="22.86" y="58.42"/>
 <vertex x="22.86" y="0"/>
 </polygon>
-<polygon width="0.2032" layer="16">
+<polygon width="0.2032" layer="16" isolate="0.254">
 <vertex x="0" y="0"/>
 <vertex x="22.86" y="0"/>
 <vertex x="22.86" y="58.42"/>
