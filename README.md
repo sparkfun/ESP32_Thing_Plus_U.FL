@@ -1,11 +1,11 @@
 SparkFun ESP32 Thing Plus (U.FL)
 ========================================
 
-[![SparkFun ESP32 Thing Plus U.FL](https://cdn.sparkfun.com//assets/parts/1/6/4/1/6/17381-SparkFun_Thing_Plus_-_ESP32_WROOM__U.FL_-01.jpg)](https://www.sparkfun.com/products/17381)
+[![SparkFun ESP32 Thing Plus U.FL](https://cdn.sparkfun.com//assets/parts/1/8/0/5/8/18581-SparkFun_Thing_Plus_SkeleBoard_-_ESP32_WROOM__U.FL_-08.jpg)](https://www.sparkfun.com/products/18581)
 
-[*SparkFun ESP32 Thing Plus U.FL (WRL-17381)*](https://www.sparkfun.com/products/17381)
+[*SparkFun ESP32 Thing Plus U.FL (WRL-18581)*](https://www.sparkfun.com/products/18581)
 
-The [SparkFun ESP32 Thing Plus (U.FL)](https://www.sparkfun.com/products/17381) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). This board has the ESP32-WROOM-32EU version of the module which contains a U.FL connector for your antenna. Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for **Bluetooth low-energy** (i.e BLE, BT4.0, Bluetooth Smart), a Qwiic adapter, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I<sup>2</sup>C.
+The [SparkFun ESP32 Thing Plus (U.FL)](https://www.sparkfun.com/products/18581) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). This board has the ESP32-WROOM-32EU version of the module which contains a U.FL connector for your antenna. Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for **Bluetooth low-energy** (i.e BLE, BT4.0, Bluetooth Smart), a Qwiic adapter, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I<sup>2</sup>C.
 
 Upgraded and easy to use, the Esp32 Thing Plus will help make it the foundation of IoT and connected projects for many years to come.
 
@@ -23,6 +23,7 @@ Documentation
 
 Product Versions
 ----------------
+* [WRL-18581](https://www.sparkfun.com/products/18581)- Special limited edition with the u.FL
 * [WRL-17381](https://www.sparkfun.com/products/17381)- v1.0, Initial Release
 
 License Information
